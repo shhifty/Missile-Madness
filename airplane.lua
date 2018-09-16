@@ -60,7 +60,7 @@ EnableEnginesAlt = 0
 
 -- COLLISION AVOIDANCE OPTIONS
 CollisionTThreshold = 5
-CraftRadius = 16
+CraftRadius = 45
 BufferSize = 50
 EnemyRadius = 50
 AvoidFriendlies = true
