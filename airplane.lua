@@ -21,8 +21,8 @@ ClosingDistance = 1500
 ForceAttackTime = 15
 CruiseAltitude = 200
 MaxDistance = 2000
-MaxPitch = 90
-MinPitch = -90
+MaxPitch = 10
+MinPitch = -10
 
 -- SPEED CONTROL
 MinimumSpeed = 20
@@ -48,7 +48,7 @@ MaxHelicopterBladeSpeed = 30
 -- TERRAIN AVOIDANCE OPTIONS
 AvoidTerrain = true
 MinAltitude = 100
-MaxAltitude = 700
+MaxAltitude = 300
 TerrainLookahead = {0,1,2,4}
 MaxTerrainThrottle = 1
 TerrainAvoidanceWeight = 1
@@ -108,9 +108,9 @@ VTOLSpinners = 'all'
 -- ADVANCED OPTIONS
 DriveMode = 2
 UpdateRate = 1
-AltitudeClamp = .2
+AltitudeClamp = .05
 MainDriveControlType = 0
-MaxRollAngle = 90
+MaxRollAngle = 60
 RollTolerance = 30
 DebugMode = false
 UsePreferredSide = false
